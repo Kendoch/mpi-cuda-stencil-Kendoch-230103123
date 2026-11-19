@@ -1,0 +1,164 @@
+{
+  "git_username": "Kendoch",
+  "cpu_model": "arm",
+  "cpu_signature": "arm64::arm::8",
+  "logical_cores": 8,
+  "available_cores": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "cache_line_size": 128,
+  "instance_seed": 9664798164184343415,
+  "num_threads": 4,
+  "iterations_per_thread": 60000000,
+  "benchmark_results": {
+    "stride_1": {
+      "layout": "stride_1",
+      "stride": 1,
+      "elapsed_ns": 143871417,
+      "elapsed_ms": 143.871417,
+      "ns_per_update": 0.5994642375,
+      "total_updates": 240000000,
+      "values": [
+        240000000,
+        300000000,
+        360000000,
+        420000000
+      ],
+      "expected_values": [
+        240000000,
+        300000000,
+        360000000,
+        420000000
+      ],
+      "context_switches": {
+        "voluntary": 0,
+        "involuntary": 277
+      },
+      "aligned_64_bytes": true,
+      "parity_passed": true
+    },
+    "stride_4": {
+      "layout": "stride_4",
+      "stride": 4,
+      "elapsed_ns": 141526833,
+      "elapsed_ms": 141.526833,
+      "ns_per_update": 0.5896951375,
+      "total_updates": 240000000,
+      "values": [
+        240000000,
+        300000000,
+        360000000,
+        420000000
+      ],
+      "expected_values": [
+        240000000,
+        300000000,
+        360000000,
+        420000000
+      ],
+      "context_switches": {
+        "voluntary": 0,
+        "involuntary": 261
+      },
+      "aligned_64_bytes": true,
+      "parity_passed": true
+    },
+    "stride_8": {
+      "layout": "stride_8",
+      "stride": 8,
+      "elapsed_ns": 138386542,
+      "elapsed_ms": 138.386542,
+      "ns_per_update": 0.5766105916666666,
+      "total_updates": 240000000,
+      "values": [
+        240000000,
+        300000000,
+        360000000,
+        420000000
+      ],
+      "expected_values": [
+        240000000,
+        300000000,
+        360000000,
+        420000000
+      ],
+      "context_switches": {
+        "voluntary": 0,
+        "involuntary": 271
+      },
+      "aligned_64_bytes": true,
+      "parity_passed": true
+    },
+    "stride_16": {
+      "layout": "stride_16",
+      "stride": 16,
+      "elapsed_ns": 138854250,
+      "elapsed_ms": 138.85425,
+      "ns_per_update": 0.578559375,
+      "total_updates": 240000000,
+      "values": [
+        240000000,
+        300000000,
+        360000000,
+        420000000
+      ],
+      "expected_values": [
+        240000000,
+        300000000,
+        360000000,
+        420000000
+      ],
+      "context_switches": {
+        "voluntary": 0,
+        "involuntary": 306
+      },
+      "aligned_64_bytes": true,
+      "parity_passed": true
+    },
+    "private": {
+      "layout": "private",
+      "stride": 8,
+      "elapsed_ns": 294208,
+      "elapsed_ms": 0.294208,
+      "ns_per_update": 0.0012258666666666667,
+      "total_updates": 240000000,
+      "values": [
+        240000000,
+        300000000,
+        360000000,
+        420000000
+      ],
+      "expected_values": [
+        240000000,
+        300000000,
+        360000000,
+        420000000
+      ],
+      "context_switches": {
+        "voluntary": 0,
+        "involuntary": 10
+      },
+      "aligned_64_bytes": true,
+      "parity_passed": true
+    }
+  },
+  "slowdown_stride1_vs_stride8": 1.0396344537606843,
+  "speedup_private_vs_stride1": 489.01259313139,
+  "llvm_audit": {
+    "llvm_native_store_count": 1,
+    "llvm_native_load_count": 4,
+    "llvm_memory_barrier_count": 1,
+    "llvm_loop_store_detected": true,
+    "native_compilation": true,
+    "exact_state_parity": true,
+    "verification_passed": true
+  },
+  "verification_passed": true
+}
