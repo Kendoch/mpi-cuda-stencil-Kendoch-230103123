@@ -1,0 +1,171 @@
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.13/dist-packages/numba_cuda/numba/cuda/dispatcher.py:716: NumbaPerformanceWarning: Grid size 2 will likely result in GPU under-utilization due to low occupancy.
+  warn(errors.NumbaPerformanceWarning(msg))
+{
+  "github_username": "Kendoch",
+  "instance_seed": 6508891574675809731,
+  "gpu_uuid": "GPU-95ce49e3-c528-4590-7b2c-3eaf9fdb07db",
+  "cpu_signature": "x86_64::x86_64::2",
+  "cpu_cache_line_bytes": 64,
+  "gpu_name": "Tesla T4",
+  "mpi_ranks": 4,
+  "mpi_grid": [
+    2,
+    2
+  ],
+  "global_domain": [
+    512,
+    512
+  ],
+  "local_padded_domain": [
+    258,
+    258
+  ],
+  "stencil_steps": 300,
+  "shm_iterations": 40000000,
+  "kappa_max": 0.9999943746156271,
+  "dx": 0.001949317738791423,
+  "dt": 7.599722044891442e-07,
+  "dt_max": 9.499652556114302e-07,
+  "cfl_stable": true,
+  "gpu_serialized_ms": 6911.5370330000005,
+  "gpu_overlapped_ms": 928.9748209999997,
+  "gpu_speedup": 7.439961640252037,
+  "max_diff": 0.0,
+  "parity_passed": true,
+  "global_energy_serialized": {
+    "0": 65792.25000000001,
+    "100": 65623.19191206331,
+    "200": 65454.58638502183,
+    "300": 65286.43190728972
+  },
+  "global_energy_overlapped": {
+    "0": 65792.25000000001,
+    "100": 65623.19191206331,
+    "200": 65454.58638502183,
+    "300": 65286.43190728972
+  },
+  "host_shm_strides": {
+    "1": {
+      "ms": 271.06802399999987,
+      "spacing_bytes": 8,
+      "values": [
+        40000000,
+        40000000,
+        40000000,
+        40000000
+      ]
+    },
+    "8": {
+      "ms": 298.1701300000008,
+      "spacing_bytes": 64,
+      "values": [
+        40000000,
+        40000000,
+        40000000,
+        40000000
+      ]
+    },
+    "16": {
+      "ms": 299.0907170000003,
+      "spacing_bytes": 128,
+      "values": [
+        40000000,
+        40000000,
+        40000000,
+        40000000
+      ]
+    }
+  },
+  "false_sharing_slowdown": 0.9091052279448619,
+  "stride_16_over_8": 1.0030874554738247,
+  "ptx_audit_by_rank": [
+    {
+      "st_shared_f64": 5,
+      "ld_shared_f64": 5,
+      "bar_sync": 1,
+      "shared_store_all": 5,
+      "shared_load_all": 5,
+      "ptx_chars": 23471
+    },
+    {
+      "st_shared_f64": 5,
+      "ld_shared_f64": 5,
+      "bar_sync": 1,
+      "shared_store_all": 5,
+      "shared_load_all": 5,
+      "ptx_chars": 23471
+    },
+    {
+      "st_shared_f64": 5,
+      "ld_shared_f64": 5,
+      "bar_sync": 1,
+      "shared_store_all": 5,
+      "shared_load_all": 5,
+      "ptx_chars": 23471
+    },
+    {
+      "st_shared_f64": 5,
+      "ld_shared_f64": 5,
+      "bar_sync": 1,
+      "shared_store_all": 5,
+      "shared_load_all": 5,
+      "ptx_chars": 23471
+    }
+  ],
+  "llvm_audit_by_rank": [
+    {
+      "load_count": 17,
+      "store_count": 3,
+      "memory_barrier_count": 1,
+      "volatile_count": 0,
+      "llvm_chars": 11126,
+      "loop_audit_note": "Inspect the emitted LLVM to verify that no load/store hoisting occurred"
+    },
+    {
+      "load_count": 17,
+      "store_count": 3,
+      "memory_barrier_count": 1,
+      "volatile_count": 0,
+      "llvm_chars": 11126,
+      "loop_audit_note": "Inspect the emitted LLVM to verify that no load/store hoisting occurred"
+    },
+    {
+      "load_count": 17,
+      "store_count": 3,
+      "memory_barrier_count": 1,
+      "volatile_count": 0,
+      "llvm_chars": 11126,
+      "loop_audit_note": "Inspect the emitted LLVM to verify that no load/store hoisting occurred"
+    },
+    {
+      "load_count": 17,
+      "store_count": 3,
+      "memory_barrier_count": 1,
+      "volatile_count": 0,
+      "llvm_chars": 11126,
+      "loop_audit_note": "Inspect the emitted LLVM to verify that no load/store hoisting occurred"
+    }
+  ]
+}
